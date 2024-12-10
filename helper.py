@@ -16,3 +16,7 @@ def get_input_from_aoc():
         f.write(aoc_input.text)
     
     print(f"Input for day {day} saved in day{day}/input.txt")
+    
+if __name__ == "__main__":
+    get_input_from_aoc()
+
